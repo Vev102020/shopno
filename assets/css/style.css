@@ -522,8 +522,8 @@ section {
   height: 15px;
   margin-right: 7px;
 
-  mask: url(/assets/img/icon/star.svg) no-repeat center / contain;
-  -webkit-mask: url(/assets/img/icon/star.svg) no-repeat center / contain;
+  mask: url(../img/icon/star.svg) no-repeat center / contain;
+  -webkit-mask: url(../img/icon/star.svg) no-repeat center / contain;
   background-color: #f2da3b;
 }
 .star-unactive-icon {
