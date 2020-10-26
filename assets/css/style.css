@@ -521,7 +521,6 @@ section {
   width: 15px;
   height: 15px;
   margin-right: 7px;
-
   mask: url(../img/icon/star.svg) no-repeat center / contain;
   -webkit-mask: url(../img/icon/star.svg) no-repeat center / contain;
   background-color: #f2da3b;
