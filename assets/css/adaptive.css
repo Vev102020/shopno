@@ -1,0 +1,27 @@
+/*Media----------------------------------*/
+@media screen and (max-width: 1320px) {
+  .container__info {
+    flex-direction: column;
+    min-width: 0;
+  }
+  .img_info {
+    margin-left: 0;
+  }
+  .description__container {
+    align-items: center;
+  }
+  #what-they-says-card {
+    width: auto;
+  }
+  .about_us__info__title {
+    width: auto;
+    text-align: justify;
+    margin-top: 100px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .company__logo2 {
+    grid-template-columns: repeat(3, 115px);
+  }
+}

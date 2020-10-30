@@ -121,14 +121,13 @@ h1 {
   color: #777879;
 }
 #contact_us:focus {
- 
   box-shadow: inset 0px 0px 11px rgba(0, 0, 0, 0.25);
   outline: 0;
 }
 #contact_us:hover {
   border: 2px solid #777879;
-  background:  #777879;
-  
+  background: #777879;
+
   color: #ffffff;
   transition: background 0.5s ease;
 }
@@ -352,7 +351,7 @@ section {
   height: auto;
 }
 .photo .photo__block {
-  /* opacity: 0; */
+  opacity: 0;
 }
 .photo:hover .photo__block {
   opacity: 1;
@@ -793,37 +792,4 @@ footer img {
   height: 20px;
   width: auto;
   margin: auto;
-}
-/*Media----------------------------------*/
-@media screen and (max-width: 1320px) {
-  .container__info {
-    flex-direction: column;
-    min-width: 0;
-  }
-  .img_info {
-    margin-left: 0;
-  }
-  .description__container {
-    align-items: center;
-  }
-  #what-they-says-card {
-    width: auto;
-  }
-  .about_us__info__title {
-    width: auto;
-    text-align: justify;
-    margin-top: 100px;
-    text-align: center;
-  }
-  /* #intro {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-} */
-@media screen and (max-width: 1250px) {
-  .company__logo2 {
-    grid-template-columns: repeat(3, 115px);
-  }
-}
-@media screen and (max-width: 1050px) {
 }
