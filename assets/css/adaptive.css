@@ -206,15 +206,12 @@
   .intro_title2 {
     font-size: 20pt;
   }
-  .mont_bold,
+
   .intro__title,
   .intro_title2 {
     font-size: 15pt;
   }
-  .merr_regular,
-  .merr_bold {
-    font-size: 10pt;
-  }
+
   .nav_button {
     font-size: 10pt;
   }
