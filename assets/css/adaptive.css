@@ -215,7 +215,9 @@
   .merr_bold {
     font-size: 10pt;
   }
-
+  .nav_button {
+    font-size: 10pt;
+  }
   .cont__title,
   .company__logo1,
   .footer__title,
