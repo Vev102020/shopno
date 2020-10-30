@@ -157,7 +157,7 @@
                         
                         <div class="triangle_up"></div>
                         <div class="photo__info">
-                            <div class="photo__info__conteiner">
+                            
                                 <p class="merr_bold photo__info__title1">Lera Stone <span class="photo__info__position">/Designer<spaen></p>
                                 <p class="raleway_regular photo__info__title2">Lorem Ipsum is not simply is  an action designer random text
                                     It has roots in a piece. </p>
@@ -167,7 +167,7 @@
                                     <a href="#"><img class="link_icon" src="assets/img/icon/dribble.svg" alt="dribble"> </a>
                                     <a href="#"><img class="link_icon" src="assets/img/icon/email.svg" alt="email"> </a>
                                 </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -177,7 +177,7 @@
                         
                         <div class="triangle_up"></div>
                         <div class="photo__info">
-                            <div class="photo__info__conteiner">
+                            
                                 <p class="merr_bold photo__info__title1">Al Rayhan <span class="photo__info__position">/UI designer<spaen></p>
                                 <p class="raleway_regular photo__info__title2">Lorem Ipsum is not simply is  an action designer random text
                                     It has roots in a piece. </p>
@@ -187,7 +187,7 @@
                                     <a href="#"><img class="link_icon" src="assets/img/icon/dribble.svg" alt="dribble"> </a>
                                     <a href="#"><img class="link_icon" src="assets/img/icon/email.svg" alt="email"> </a>
                                 </div>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -198,7 +198,7 @@
                         
                         <div class="triangle_up"></div>
                         <div class="photo__info">
-                            <div class="photo__info__conteiner">
+                            
                                 <p class="merr_bold photo__info__title1">Mike Smit <span class="photo__info__position">/Programmer<spaen></p>
                                 <p class="raleway_regular photo__info__title2">Lorem Ipsum is not simply is  an action designer random text
                                     It has roots in a piece. </p>
@@ -208,7 +208,7 @@
                                     <a href="#"><img class="link_icon" src="assets/img/icon/dribble.svg" alt="dribble"> </a>
                                     <a href="#"><img class="link_icon" src="assets/img/icon/email.svg" alt="email"> </a>
                                 </div>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -218,7 +218,7 @@
                         
                         <div class="triangle_up"></div>
                         <div class="photo__info">
-                            <div class="photo__info__conteiner">
+                           
                                 <p class="merr_bold photo__info__title1">Robert Hackey <span class="photo__info__position">/Content-manager<spaen></p>
                                 <p class="raleway_regular photo__info__title2">Lorem Ipsum is not simply is  an action designer random text
                                     It has roots in a piece. </p>
@@ -228,7 +228,7 @@
                                     <a href="#"><img class="link_icon" src="assets/img/icon/dribble.svg" alt="dribble"> </a>
                                     <a href="#"><img class="link_icon" src="assets/img/icon/email.svg" alt="email"> </a>
                                 </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -238,7 +238,7 @@
                         
                         <div class="triangle_up"></div>
                         <div class="photo__info">
-                            <div class="photo__info__conteiner">
+                           
                                 <p class="merr_bold photo__info__title1">Miranda Ven <span class="photo__info__position">/Director<spaen></p>
                                 <p class="raleway_regular photo__info__title2">Lorem Ipsum is not simply is  an action designer random text
                                     It has roots in a piece. </p>
@@ -248,7 +248,7 @@
                                     <a href="#"><img class="link_icon" src="assets/img/icon/dribble.svg" alt="dribble"> </a>
                                     <a href="#"><img class="link_icon" src="assets/img/icon/email.svg" alt="email"> </a>
                                 </div>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -258,7 +258,7 @@
                         
                         <div class="triangle_up"></div>
                         <div class="photo__info">
-                            <div class="photo__info__conteiner">
+                          
                                 <p class="merr_bold photo__info__title1">Lera Stone <span class="photo__info__position">/SMM-marketer<spaen></p>
                                 <p class="raleway_regular photo__info__title2">Lorem Ipsum is not simply is  an action designer random text
                                     It has roots in a piece. </p>
@@ -268,7 +268,7 @@
                                     <a href="#"><img class="link_icon" src="assets/img/icon/dribble.svg" alt="dribble"> </a>
                                     <a href="#"><img class="link_icon" src="assets/img/icon/email.svg" alt="email"> </a>
                                 </div>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -328,6 +328,7 @@
     <section id="company_logo">
         <div class="container">
             
+            <div class="company__grid">
                 <div class="company__logo1">
                     <img src="assets/img/company logo/rko.png" alt="rko">
                     <img src="assets/img/company logo/audiopro.png" alt="audiopro">
@@ -341,7 +342,8 @@
                     <img src="assets/img/company logo/infinity.png" alt="audiopro">
                     <img src="assets/img/company logo/rko.png" alt="rko">
                 </div>
-         
+            </div>   
+            
            
         </div>
     </section>
@@ -349,15 +351,29 @@
         <div class="message_background">
             <div class="container message">
                 <div class="containers">
-                    <div class="message__container">
-                        <input type="text">
-                        <input type="text">
-                        <input type="text">
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <form class="message__container">
+                        <input type="text" placeholder="Name*" maxlength="30" class="raleway_regular" required>
+                        <input type="text" placeholder="Subject*" maxlength="30"  required>
+                        <input type="text" placeholder="E-mail*" maxlength="30"  required>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Massage*" maxlength="200"  required></textarea>
                         <button class="mont_regular">Send Message</button>
-                    </div>
+                    </form>
                     <div class="geo__container">
-
+                        <div class="geo__contact">
+                            <p class="raleway_regular">Adress line 1</p>
+                            <p class="raleway_regular">Adress line 2</p>
+                            <p class="raleway_regular">Phone: +548 945645</p>
+                            <p class="raleway_regular">Fax: +456456 54546</p>
+                        </div>
+                        <div class="geo__email">
+                            <p class="raleway_regular">Web: www.designagency.net</p>
+                            <p class="raleway_regular">E-mail: info@designagency.net</p>
+                        </div>
+                        <div class="geo__map">
+                            <a href="https://yandex.ru/maps/?um=constructor%3A25aaba21d83c138c5dc5e34157e88a796320f91ce45d60c022a2084d6a35a93b&amp;source=constructorStatic" target="_blank">
+                                <img>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -367,7 +383,30 @@
         
     </section>
     <footer id="footer">
-
+        <p class="raleway_regular footer__title">Follow us</p>
+        <div class="footer__container">
+            <a href="#">
+                <div class="footer__social">
+                    <img src="assets/img/icon/footer_pinterest_gray.svg" alt="footer_pinterest_gray">
+                </div>
+            </a>
+            <a href="#">
+                <div class="footer__social">
+                    <img src="assets/img/icon/footer_twitter_gray.svg" alt="footer_twitter_gray">
+                </div>
+            </a>
+            <a href="#">
+                <div class="footer__social">
+                    <img src="assets/img/icon/footer_facebook_gray.svg" alt="footer_facebook_gray">
+                </div>
+            </a>
+            <a href="#">
+                <div class="footer__social">
+                    <img src="assets/img/icon/footer_dribble_grey.svg" alt="footer_dribble_grey">
+                </div>
+            </a>
+        </div>
+        <p class="raleway_medium footer__title2">Copyright Masum Parvej, All Rights Reserved</p>
     </footer>
     <script async src="./assets/js/about-us-slider.js"></script>
     <script async src="./assets/js/what-they-says-slider.js"></script>
