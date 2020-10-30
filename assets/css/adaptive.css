@@ -262,4 +262,7 @@
   #footer {
     height: 200px;
   }
+  .our_services__container {
+    grid-template-rows: repeat(6, 300px);
+  }
 }
